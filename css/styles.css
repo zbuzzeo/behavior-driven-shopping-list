@@ -1,0 +1,11 @@
+html {
+  background-color: #c7b7a7;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white; }
+  html body #bounds {
+    display: flex;
+    flex-direction: column;
+    background-color: #c7b7a7;
+    width: 500px;
+    height: fit-content; }

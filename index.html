@@ -5,17 +5,21 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
   <title>Shopping List BDD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body>
-  <form action="" id="addItemForm">
-    title:        <input type="text" id="title"/> 
-    description:  <input type="text" type="description" id="description"/>
-  </form>
-  <button id="addShoppingListItemButton">Add to Shopping List</button>
-  <div id="content"></div>
+  <div id="bounds">
+    <div id="title">Let's go shopping!</div>
+    <form action="" id="addItemForm">
+      <input type="text" id="title" placeholder="title"/> <br>
+      <input type="text" type="description" id="description" placeholder="description"/>
+    </form>
+    <button id="addShoppingListItemButton">Add to Shopping List</button>
+    <div id="content"></div>
+  </div>
 
   <script src="js/shopping-list-item.js"></script>
   <script src="js/shopping-list.js"></script>
